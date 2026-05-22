@@ -1,0 +1,319 @@
+{
+ "brokerId": "import-3pb-declaration-07142025-4401",
+ "shipmentId": "33333",
+ "customerId": "3",
+ "jobType": "BrokerStandardImport",
+ "country": "IT",
+ "division": "Global",
+ "stateOfData": "RECEIVED_FROM_CUSTOMER",
+ "stateOfShipment": "ARRIVED",
+ "stateOfEntry": "CLEARED",
+ "programId": "testProgramId",
+ "purchaseOrder": "testPurchaseOrder",
+ "assetId": "testAssetId",
+ "internalPartNumber": "testInternalPartNumber",
+ "brokerName": "DSV Customs Services B.V.",
+ "parties": {
+  "importer": {
+   "cityName": "Copenhagen",
+   "country": "DK",
+   "name": "Importer A/S",
+   "zipCode": "2100",
+   "streetName": "Importvej 2",
+   "eori": "DK123456789",
+   "representativeStatus": "1"
+  },
+  "exporter": {
+   "cityName": "Hamburg",
+   "country": "DE",
+   "name": "Exporter GmbH",
+   "zipCode": "20095",
+   "streetName": "Exportstrasse 2",
+   "eori": "DE123456789",
+   "representativeStatus": "1"
+  },
+  "declarant": {
+   "cityName": "Oslo",
+   "country": "NO",
+   "name": "Declarant AS",
+   "zipCode": "0150",
+   "streetName": "Deklarasjonsgata 3",
+   "eori": "NO123456789"
+  },
+  "representative": {
+   "cityName": "Stockholm",
+   "country": "SE",
+   "name": "Rep AB",
+   "zipCode": "11120",
+   "streetName": "Representantvägen 4",
+   "eori": "SE123456789"
+  },
+  "buyer": {
+   "cityName": "Paris",
+   "country": "FR",
+   "name": "Buyer SARL",
+   "zipCode": "75001",
+   "streetName": "Rue de l'Achat 5",
+   "eori": "FR123456789"
+  },
+  "seller": {
+   "cityName": "London",
+   "country": "GB",
+   "name": "Seller Ltd",
+   "zipCode": "EC1A 1BB",
+   "streetName": "Seller Street 6",
+   "eori": "GB123456789"
+  },
+  "forwarder": {
+   "cityName": "Rotterdam",
+   "country": "NL",
+   "name": "Forwarder BV",
+   "zipCode": "3011",
+   "streetName": "Forwardersingel 7",
+   "eori": "NL123456789"
+  },
+  "carrier": {
+   "cityName": "Antwerp",
+   "country": "BE",
+   "name": "Carrier NV",
+   "zipCode": "2000",
+   "streetName": "Carrierlaan 8",
+   "eori": "BE123456789"
+  },
+  "broker": {
+   "name": "Carrier NV"
+  }
+ },
+ "header": {
+  "declarationType": "EXA",
+  "declarationCategory": "TESTX",
+  "lrn": "LRN123456",
+  "mrn": "MRN654321",
+  "awb": "AWB",
+  "officeOfExit": "OFFICE_OF_EXIT",
+  "ucr": "UCR",
+  "fiscalReference": [
+   {
+    "id": "fiscalReferenceId1",
+    "role": "fiscalReferenceRole1"
+   }
+  ],
+  "incoterms": [
+   {
+    "code": "CIF",
+    "location": "Copenhagen",
+    "unlocode": "DKCPH",
+    "country": "DK"
+   }
+  ],
+  "taxes": [
+   {
+    "taxType": "A00",
+    "taxBase": 5000.0,
+    "taxRate": 6.0,
+    "payableAmount": 300.0,
+    "totalTax": 300.0,
+    "paymentMethod": "E"
+   }
+  ],
+  "additionsAndDeductions": [
+   {
+    "code": "AB",
+    "amount": 250.0,
+    "currency": "EUR"
+   }
+  ],
+  "guarantee": [
+   {
+    "guaranteeType": "TYPE",
+    "guaranteeNumber": "num"
+   }
+  ],
+  "dispatchingCountry": "DE",
+  "portOfLoading": "DEHAM",
+  "portOfDischarge": "DKCPH",
+  "goodsLocation": "Warehouse 1",
+  "destinationCountry": "DK",
+  "containers": [
+   {
+    "containerNumber": "CONT1234567",
+    "containerSeal": "SEAL123"
+   }
+  ],
+  "borderTransportNationality": "DE",
+  "borderModeOfTransport": "ROAD",
+  "inlandModeOfTransport": "RAIL",
+  "previousDocuments": [
+   {
+    "type": "T1",
+    "reference": "PREVDOC123",
+    "identifier": "ID123",
+    "category": "CATEGORY1"
+   }
+  ],
+  "warehouseId": "WH1",
+  "defermentAccount": "DEF_ACC",
+  "authorizationHolders": [
+   {
+    "type": "AUTH_TYPE_1",
+    "reference": "AUTHREF1",
+    "identifier": "AUTHID1"
+   }
+  ],
+  "presentationOffice": "OFFICE1",
+  "supervisingOffice": "OFFICE2",
+  "transactionNature": "SALE",
+  "acceptanceDate": "2024-06-01",
+  "clearanceDate": "2024-06-02",
+  "additionalDocuments": [
+   {
+    "type": "C2",
+    "reference": "ADDDOC123",
+    "identifier": "ADDID123"
+   }
+  ],
+  "additionalInformation": [
+   {
+    "code": "CODE1",
+    "information": "ADDINFO123",
+    "identifier": "ADDINFO123"
+   }
+  ]
+ },
+ "lines": [
+  {
+   "tariffCode": "10061098",
+   "customsProcedureCode": "CPC1",
+   "additionalProcedureCode": "APC1",
+   "quantityItem": 1,
+   "previousDocumentsItem": [
+    {
+     "type": "T2",
+     "reference": "PREVLINE123",
+     "identifier": "ID456",
+     "category": "CATEGORY2"
+    }
+   ],
+   "additionsAndDeductionsItem": [
+    {
+     "code": "AB",
+     "amount": 250.0,
+     "currency": "EUR"
+    }
+   ],
+   "additionalInformationItem": [
+    {
+     "code": "INFO_TYPE_1",
+     "information": "INFOREF1",
+     "identifier": "INFOID1"
+    }
+   ],
+   "additionalDocumentsItem": [
+    {
+     "type": "C3",
+     "reference": "ADDDOCLINE123",
+     "identifier": "ADDID456",
+     "units": "test",
+     "authorityName": "auth",
+     "validityDate": "date",
+     "quantity": 2
+    }
+   ],
+   "valuationIndicator": [
+    {
+     "partyRelationship": "testPartyRelationship",
+     "buyerRestrictions": "testBuyerRestrictions",
+     "conditionsOnSaleOrPrice": "testConditionsOnSaleOrPrice",
+     "proceedsOfSaleOrUse": "proceedsOfSaleOrUse"
+    }
+   ],
+   "amount": 10000.0,
+   "currencyItem": "EUR",
+   "originCountry": "CN",
+   "preferentialOriginCountry": "CN",
+   "netWeight": 9500.0,
+   "numberOfPackages": 1,
+   "grossWeight": 10000.0,
+   "packageMarks": "PKG123",
+   "firstAdditionalCode": "CODE1",
+   "secondAdditionalCode": "CODE2",
+   "supplementaryUnits": "SU1",
+   "description": "Wheat grain",
+   "transactionNatureItem": "PURCHASE",
+   "invoiceNumberItem": "INV123456",
+   "statisticalValue": 12000.0,
+   "quota": "Q123456",
+   "taxesItem": [
+    {
+     "taxType": "A00",
+     "taxBase": 5000.0,
+     "taxRate": 6.0,
+     "payableAmount": 300.0,
+     "totalTax": 300.0,
+     "paymentMethod": "E"
+    }
+   ]
+  },
+  {
+   "tariffCode": "123123",
+   "customsProcedureCode": "CPC2",
+   "additionalProcedureCode": "APC2",
+   "quantityItem": 1,
+   "previousDocumentsItem": [
+    {
+     "type": "T23",
+     "reference": "PREVLINE123",
+     "identifier": "ID456",
+     "category": "CATEGORY2"
+    }
+   ],
+   "additionsAndDeductionsItem": [
+    {
+     "code": "AB",
+     "amount": 250.0,
+     "currency": "EUR"
+    }
+   ],
+   "additionalInformationItem": [
+    {
+     "code": "INFO_TYPE_13",
+     "information": "INFOREF1",
+     "identifier": "INFOID1"
+    }
+   ],
+   "additionalDocumentsItem": [
+    {
+     "type": "C33",
+     "reference": "ADDDOCLINE123",
+     "identifier": "ADDID456"
+    }
+   ],
+   "valuationIndicator": [
+    {
+     "partyRelationship": "testPartyRelationship",
+     "buyerRestrictions": "testBuyerRestrictions",
+     "conditionsOnSaleOrPrice": "testConditionsOnSaleOrPrice",
+     "proceedsOfSaleOrUse": "proceedsOfSaleOrUse"
+    }
+   ],
+   "amount": 2222.0,
+   "currencyItem": "EUR",
+   "originCountry": "CN",
+   "numberOfPackages": 1,
+   "netWeight": 123.5,
+   "grossWeight": 2141.0,
+   "packageMarks": "PKG1232",
+   "firstAdditionalCode": "CODE1",
+   "secondAdditionalCode": "CODE2",
+   "supplementaryUnits": "SU22",
+   "description": "Wheat grai2n",
+   "transactionNatureItem": "PURCHASE2",
+   "invoiceNumberItem": "INV1234562",
+   "statisticalValue": 12000.0,
+   "preference": "STANDARD_RATE",
+   "preferentialOriginCountry": "CN",
+   "quota": "Q123456",
+   "valuationMethod": "METHOD"
+  }
+ ]
+}
