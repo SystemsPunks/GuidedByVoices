@@ -41,19 +41,19 @@
           "registrationCode": "??? O que seria esse campo ???",
           "name": "VALOR ESTÁTICO: DSV Air & Sea Brasil",
           "address": {
-            "name1": "Main Street 1",
+            "name1": "VALOR ESTÁTICO: Alameda Armenio Mendes, 66",
             "name2": null,
-            "name3": null,
+            "name3": de,
             "name4": null,
             "city": "VALOR ESTÁTICO: Santos",
-            "postalCode": ,
-            "state": "Hovedstaden",
-            "country": "DK"
+            "postalCode": "VALOR ESTÁTICO: 11035260",
+            "state": "VALOR ESTÁTICO: São Paulo",
+            "country": "VALOR ESTÁTICO: BR"
           }
         },
         "ior": {
           "vatGst": "DK12345678",
-          "registrationCode": "IOR-001",
+          "registrationCode": "??? O que seria esse campo ???",
           "name": "Importer DK ApS",
           "address": {
             "name1": "Importer Road 10",
