@@ -31,22 +31,22 @@
       "inlandTransportNationality": null,
       "importDate": "Chegada (Data)",
       "exportDate": "Embarque (Data)",
-      "houseBillOfLading": "HAWB/HBL (nulo caso não seja um processo Marítimo)",
-      "houseAirwayBill": "HAWB/HBL (nulo caso não seja um processo Aéreo ou Rodoviário)",
-      "masterBillOfLading": "OX1234567890",
-      "masterAirwayBill": null,
-      "shipmentId": "SHIP-2026-01",
+      "houseBillOfLading": "Hawb / HBL (nulo caso não seja um processo Marítimo)",
+      "houseAirwayBill": "Hawb / HBL (nulo caso não seja um processo Aéreo ou Rodoviário)",
+      "masterBillOfLading": "Mawb / MBL (nulo caso não seja um processo Marítimo",
+      "masterAirwayBill": "Mawb / MBL (nulo caso não seja um processo Aéreo ou Rodoviário",
+      "shipmentId": "Registro (Ref. DSV)",
       "parties": {
         "broker": {
-          "registrationCode": "BR-001",
-          "name": "Nordic Customs Broker A/S",
+          "registrationCode": "??? O que seria esse campo ???",
+          "name": "VALOR ESTÁTICO: DSV Air & Sea Brasil",
           "address": {
             "name1": "Main Street 1",
             "name2": null,
             "name3": null,
             "name4": null,
-            "city": "Copenhagen",
-            "postalCode": "2100",
+            "city": "VALOR ESTÁTICO: Santos",
+            "postalCode": ,
             "state": "Hovedstaden",
             "country": "DK"
           }
