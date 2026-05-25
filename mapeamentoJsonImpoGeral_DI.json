@@ -1,0 +1,520 @@
+{
+  "id": "??? ID gerado automático ???",
+  "declaration": {
+    "header": {
+	  "technicalId": "??? ID gerado automático ???",
+      "entryNumber": "Número da DI / DUIMP",
+      "lrn": null,
+      "ucr": null,
+      "jobDate": "Data de Registro",
+      "jobTime": "Hora do Registro",
+      "jobType": "VALOR ESTÁTICO: STANDARD IMPORT",
+      "jobTypeDescription": "VALOR ESTÁTICO: Standard import declaration",
+      "shipmentType": "VALOR ESTÁTICO: IMPORT",
+      "declarationType": "VALOR ESTÁTICO: IMD",
+      "declarationCategory": "??? Será que é um valor estático ???",
+      "declarationCountry": "VALOR ESTÁTICO: BR",
+      "declarationDivision": "??? Será que é um DE PARA SEA, AIR ou ROAD ???",
+      "portOfEntry": "DE PARA: URF Despacho -> portsConversionTable.xlsx",
+      "cityOfEntry": "??? Existe algum campo referente à cidade da URF ???",
+      "countryOfImport": "VALOR ESTÁTICO: BR",
+      "countryOfExport": "DE PARA: Pais Exportador Sigla -> countryConversionTable.xlsx",
+      "portOfLoading": "!!! MARITIMOS: Porto de Origem / AÉREOS: Origem Siscomex (Locode)   considerando sempre as primeiras 5 letras antes do '-' se houver !!!",
+      "portOfDischarge": "DE PARA: URF Despacho -> portsConversionTable.xlsx",
+      "borderTransportId": "Nome do Navio !!! nulo sempre em processos rodoviários e aéreos !!!",
+      "inlandTransportId": null,
+      "borderModeOfTransport": "??? Qual o DE PARA (dos números) para os tipos de transporte ???",
+      "inlandModeOfTransport": "??? Qual o DE PARA (dos números) para os tipos de transporte ???",
+      "borderModeOfTransportDescription": "!!! Acredito que será sempre 'Sea', 'Road' ou 'Air transport' !!!",
+      "inlandModeOfTransportDescription": "!!! Acredito que será sempre 'Sea', 'Road' ou 'Air transport' !!!",
+      "borderTransportNationality": null,
+      "inlandTransportNationality": null,
+      "importDate": "Chegada (Data)",
+      "exportDate": "Embarque (Data)",
+      "houseBillOfLading": "HAWB/HBL (nulo caso não seja um processo Marítimo)",
+      "houseAirwayBill": "HAWB/HBL (nulo caso não seja um processo Aéreo ou Rodoviário)",
+      "masterBillOfLading": "OX1234567890",
+      "masterAirwayBill": null,
+      "shipmentId": "SHIP-2026-01",
+      "parties": {
+        "broker": {
+          "registrationCode": "BR-001",
+          "name": "Nordic Customs Broker A/S",
+          "address": {
+            "name1": "Main Street 1",
+            "name2": null,
+            "name3": null,
+            "name4": null,
+            "city": "Copenhagen",
+            "postalCode": "2100",
+            "state": "Hovedstaden",
+            "country": "DK"
+          }
+        },
+        "ior": {
+          "vatGst": "DK12345678",
+          "registrationCode": "IOR-001",
+          "name": "Importer DK ApS",
+          "address": {
+            "name1": "Importer Road 10",
+            "name2": null,
+            "name3": null,
+            "name4": null,
+            "city": "Copenhagen",
+            "state": "Hovedstaden",
+            "postalCode": "2300",
+            "country": "DK"
+          },
+          "representativeStatus": "DIRECT"
+        },
+        "eor": {
+          "vatGst": "PL9876543210",
+          "registrationCode": "EOR-001",
+          "name": "Exporter PL Sp. z o.o.",
+          "address": {
+            "name1": "Export Ave 5",
+            "name2": null,
+            "name3": null,
+            "name4": null,
+            "city": "Gdansk",
+            "state": "Pomorskie",
+            "postalCode": "80-001",
+            "country": "PL"
+          },
+          "representativeStatus": null
+        },
+        "consignee": {
+          "registrationCode": "CON-001",
+          "name": "Consignee DK A/S",
+          "address": {
+            "name1": "Warehouse Street 3",
+            "name2": null,
+            "name3": null,
+            "name4": null,
+            "city": "Copenhagen",
+            "state": "Hovedstaden",
+            "postalCode": "2450",
+            "country": "DK"
+          }
+        },
+        "declarant": {
+          "registrationCode": "DECL-001",
+          "name": "Declarant DK",
+          "address": {
+            "name1": "Declarant Lane 9",
+            "name2": null,
+            "name3": null,
+            "name4": null,
+            "city": "Copenhagen",
+            "postalCode": "2400",
+            "state": "Hovedstaden",
+            "country": "DK"
+          }
+        },
+        "representative": {
+          "registrationCode": "REPR-001",
+          "name": "Representative DK",
+          "address": {
+            "name1": "Representative Lane 9",
+            "name2": null,
+            "name3": null,
+            "name4": null,
+            "city": "Copenhagen",
+            "postalCode": "2400",
+            "state": "Hovedstaden",
+            "country": "DK"
+          }
+        },
+        "buyer": {
+          "registrationCode": "BUYER-001",
+          "name": "Buyer DK",
+          "address": {
+            "name1": "Buyer Lane 9",
+            "name2": null,
+            "name3": null,
+            "name4": null,
+            "city": "Copenhagen",
+            "postalCode": "2400",
+            "state": "Hovedstaden",
+            "country": "DK"
+          }
+        },
+        "seller": {
+          "registrationCode": "SELLER-001",
+          "name": "Seller DK",
+          "address": {
+            "name1": "Seller Lane 9",
+            "name2": null,
+            "name3": null,
+            "name4": null,
+            "city": "Copenhagen",
+            "postalCode": "2400",
+            "state": "Hovedstaden",
+            "country": "DK"
+          }
+        },
+        "authorizedConsignee": {
+          "registrationCode": "AUTH-001",
+          "name": "Authorized Consignee DK",
+          "address": {
+            "name1": "Authorized Lane 9",
+            "name2": null,
+            "name3": null,
+            "name4": null,
+            "city": "Copenhagen",
+            "postalCode": "2400",
+            "state": "Hovedstaden",
+            "country": "DK"
+          }
+        },
+        "forwarder": {
+          "registrationCode": "FORW-001",
+          "name": "Forwarder DK",
+          "address": {
+            "name1": "Forwarder Lane 9",
+            "name2": null,
+            "name3": null,
+            "name4": null,
+            "city": "Copenhagen",
+            "postalCode": "2400",
+            "state": "Hovedstaden",
+            "country": "DK"
+          }
+        },
+        "carrier": {
+          "registrationCode": "CARRIER-001",
+          "name": "Carrier DK",
+          "address": {
+            "name1": "Carrier Lane 9",
+            "name2": null,
+            "name3": null,
+            "name4": null,
+            "city": "Copenhagen",
+            "postalCode": "2400",
+            "state": "Hovedstaden",
+            "country": "DK"
+          }
+        },
+        "shipper": {
+          "registrationCode": "SHIPPER-001",
+          "name": "Shipper DK",
+          "address": {
+            "name1": "Shipper Lane 9",
+            "name2": null,
+            "name3": null,
+            "name4": null,
+            "city": "Copenhagen",
+            "postalCode": "2400",
+            "state": "Hovedstaden",
+            "country": "DK"
+          }
+        },
+        "delivery": {
+          "registrationCode": "DELIVERY-001",
+          "name": "Delivery DK",
+          "address": {
+            "name1": "Delivery Lane 9",
+            "name2": null,
+            "name3": null,
+            "name4": null,
+            "city": "Copenhagen",
+            "postalCode": "2400",
+            "state": "Hovedstaden",
+            "country": "DK"
+          }
+		},
+		"intermediateConsignee": {
+          "registrationCode": "INTERCONS-001",
+          "name": "INTERCONS DK",
+          "address": {
+            "name1": "INTERCONS Lane 9",
+            "name2": null,
+            "name3": null,
+            "name4": null,
+            "city": "Copenhagen",
+            "postalCode": "2400",
+            "state": "Hovedstaden",
+            "country": "DK"
+          }
+        }
+      },
+      "brokerReferenceNumber": "BR-REF-001",
+      "brokerOfficeNumber": "OFF-01",
+      "brokerLicense": "LIC-001",
+      "customerId": "CUST-1001",
+      "incotermsCode": "DAP",
+      "incotermsLocation": "Copenhagen",
+      "incotermsUnlocode": "DKCPH",
+      "incotermsCountry": "DK",
+      "holderOfAuthorization": [
+        {
+          "type": "AUTH_TYPE_A",
+          "reference": "AUTH-REF-001"
+        }
+      ],
+      "fiscalReferenceId": "DK123456789",
+      "fiscalReferenceRole": "IMPORTER",
+      "defermentAccountTaxes": "1234567",
+      "defermentAccountDuties": "7654321",
+      "warehouseId": "R1234567DK",
+      "totalGrossWeight": 1200.5,
+      "totalGrossWeightUom": "KG",
+      "totalNetWeight": 1100.0,
+      "totalNetWeightUom": "KG",
+      "totalNumberOfPackages": 45,
+      "containers": [
+        {
+          "containerNumber": "ABCD1234567",
+          "sealNumber": "SEAL001"
+        }
+      ],
+      "totalValueDeclared": 25000.0,
+      "customsDeclarationCurrency": "EUR",
+      "taxes": [
+        {
+          "type": "VAT",
+          "base": 25000.0,
+          "rate": 0.25,
+          "payableAmount": 6250.0,
+          "total": 6250.0,
+          "paymentMethod": "E"
+        }
+      ],
+      "totalAdditionsAndDeductions": [
+        {
+          "code": "AK",
+          "value": 500.0,
+          "currency": "EUR",
+          "exchangeRate": 1.0,
+          "convertedValue": 500.0
+        }
+      ],
+      "totalValueFreightCharges": 500.0,
+      "totalFreightChargesCurrency": "EUR",
+      "totalFreightExchangeRate": 1.0,
+      "totalConvertedValueFreightCharges": 500.0,
+      "totalValueInsuranceCharges": 100.0,
+      "totalInsuranceChargesCurrency": "EUR",
+      "totalInsuranceExchangeRate": 1.0,
+      "totalConvertedValueInsuranceCharges": 100.0,
+      "transmittedDate": "2026-01-22",
+      "transmittedTime": "19:10:00",
+      "acceptanceDate": "2026-01-22",
+      "acceptanceTime": "19:11:00",
+      "customsReleaseDate": "2026-01-22",
+      "customsReleaseTime": "19:12:00",
+      "taxesDutiesPaidDate": "2026-01-22",
+      "taxesDutiesPaidTime": "19:12:30",
+      "relationshipStatus": true,
+      "buyerRestrictions": false,
+      "conditionsOnSaleOrPrice": false,
+      "proceedsOfSaleOrUse": false,
+      "transactionNature": "11",
+      "previousDocuments": [
+        {
+          "category": "Z",
+          "type": "ZZZ",
+          "reference": "1234567"
+        }
+      ],
+      "additionalInformation": [
+        {
+          "type": "00100",
+          "reference": "123456"
+        }
+      ],
+      "additionalDocuments": [
+        {
+          "type": "N380",
+          "reference": "inv123456",
+          "amount": null,
+          "issueDate": "2026-01-01",
+          "validityDate": null
+        }
+      ],
+      "remarks": "Header remarks",
+      "totalGuarantee": [
+        {
+          "value": 10.1,
+          "currency": "EUR",
+          "type": "1",
+          "number": "25DK000000K000000"
+        }
+      ],
+      "customsAuthorizationNumber": "DK/04/000123",
+      "loadingLocation": "GDN-YD-02",
+      "expirationDate": "2026-02-22",
+      "dischargeDate": "2026-01-22",
+      "goodsLocation": "GDLCS",
+      "exitCustomsOfficeCode": "DK001",
+      "exitCustomsOfficeName": "Copenhagen Exit Office",
+      "exportCustomsOfficeCode": "PL009",
+      "exportCustomsOfficeName": "Gdansk Export Office",
+      "importCustomsOfficeCode": "DK003",
+      "importCustomsOfficeName": "Copenhagen Import Office",
+      "declarationStatus": "CLEARED",
+      "stateOfData": "APPROVED",
+      "stateOfShipment": "ARRIVED",
+	    "supervisingOfficeCode": "DKCPH001",
+      "supervisingOfficeName": "Copenhagen Supervising Office",
+      "borderTransportIdType": "11",
+      "inlandTransportIdType": "11"
+    },
+    "lines": [
+      {
+        "lineNumber": 1,
+        "commercialInvoiceNumber": "INV-2026-01",
+        "htsCode": "870899",
+        "htsDescription": "Vehicle parts",
+        "additionalCodes": [
+          {
+            "code": "1234"
+          }
+        ],
+        "htsQuantity": 100,
+        "countryOfOrigin": "PL",
+        "grossWeight": 1200.5,
+        "grossWeightUom": "KG",
+        "netWeight": 1100.0,
+        "netWeightUom": "KG",
+        "htsLineValue": 20000.0,
+        "htsLineCurrency": "EUR",
+        "packageType": "BX",
+        "numberOfPackages": 20,
+        "packageMarks": "ADDRESSED",
+        "supplementaryUnits": 100,
+        "supplementaryUnitsOfMeasure": "PCS",
+        "additionalDocuments": [
+          {
+            "type": "N380",
+            "amount": 20000.0,
+            "reference": "INV-2026-01",
+            "issueDate": "2026-01-20",
+            "validityDate": "2026-12-31"
+          }
+        ],
+        "additionalInformation": [
+          {
+            "code": "BR123",
+            "information": "Line-level info"
+          }
+        ],
+        "quota": "090000",
+        "taxes": [
+          {
+            "type": "VAT",
+            "base": 20000.0,
+            "rate": 0.25,
+            "payableAmount": 5000.0,
+            "paymentMethod": "E"
+          }
+        ],
+        "dutyLineBaseValue": 100.1,
+        "dutyLinePayableAmount": 200.1,
+        "dutyLineRate": 300.1,
+        "taxLineBaseValue": 100.1,
+        "taxLinePayableAmount": 200.1,
+        "taxLineRate": 300.1,
+        "postponedVatLineValue": 111.1,
+        "postponedVatLineCurrency": "EUR",
+        "consumptionTaxLinePayableAmount": 0.0,
+        "consumptionTaxLineRate": 0.0,
+        "antidumpingLinePayableAmount": 0.0,
+        "antidumpingLineRate": 0.0,
+        "antidumpingLineCaseNumber": null,
+        "countervailingLinePayableAmount": 0.0,
+        "countervailingLineRate": 0.0,
+        "countervailingLineCaseNumber": null,
+        "exciseLinePayableAmount": 0.0,
+        "exciseLineRate": 0.0,
+        "exchangeRate": 1.0,
+        "exchangeRateFromCurrency": "EUR",
+        "exchangeRateToCurrency": "EUR",
+        "additionsAndDeductions": [
+          {
+            "code": "AT",
+            "value": 200.0,
+            "currency": "EUR",
+            "exchangeRate": 1.0,
+            "convertedValue": 200.0
+          }
+        ],
+        "internationalFreightChargesValue": 200.0,
+        "internationalFreightChargesCurrency": "EUR",
+        "internationalFreightChargesConvertedValue": 200.0,
+        "internationalFreightChargesExchangeRate": 1.0,
+        "localFreightChargesValue": 50.0,
+        "localFreightChargesCurrency": "EUR",
+        "localFreightChargesConvertedValue": 50.0,
+        "localFreightChargesExchangeRate": 1.0,
+        "insuranceChargesValue": 30.0,
+        "insuranceChargesCurrency": "EUR",
+        "insuranceChargesConvertedValue": 30.0,
+        "insuranceChargesExchangeRate": 1.0,
+        "customsProcedureCode": "40",
+        "additionalCustomsProcedureCode": "00",
+        "preference": "200",
+        "preferentialOriginCountry": "PL",
+        "statisticalValue": 20000.0,
+        "guarantee": [
+          {
+            "value": 1000.0,
+            "currency": "EUR",
+            "reference": "25DK000000K000000",
+            "type": "1",
+            "exchangeRate": 1.0,
+            "convertedValue": 1000.0,
+            "convertedValueCurrency": "EUR"
+          }
+        ],
+        "previousDocuments": [
+          {
+            "reference": "PREV-L-001",
+            "category": "Z",
+            "type": "N380"
+          }
+        ],
+        "purchaseOrderNumber": "PO-001",
+        "inspectionFlag": "N",
+        "inspectionType": null,
+        "transactionNature": "11",
+        "valuationMethod": "1",
+        "incotermsLineCode": "DAP",
+        "incotermsLineLocation": "Copenhagen",
+        "incotermsLineUnlocode": "DKCPH",
+        "incotermsLineCountry": "DK",
+        "lineRemarks": "Line remarks",
+        "relationshipStatusLine": true,
+        "buyerRestrictionsLine": true,
+        "conditionsOnSaleOrPriceLine": true,
+        "proceedsOfSaleOrUseLine": true
+      }
+    ],
+    "commercialInvoice": [
+      {
+        "invoiceNumber": "INV-2026-01",
+        "invoiceDate": "2026-01-20",
+        "invoiceValue": 20000.0,
+        "invoiceCurrency": "EUR"
+      }
+    ],
+    "commercialInvoiceLine": [
+      {
+        "partNumber": "PN-123",
+        "partNumberDescription": "Brake pads",
+        "commercialInvoiceNumber": "INV-2026-01",
+        "commercialInvoiceLineNumber": 1,
+        "commercialInvoiceLineItemQuantity": 100,
+        "commercialInvoiceNumberOfPackages": 20,
+        "commercialInvoicePackageType": "BX",
+        "commercialInvoiceGrossWeight": 1200.5,
+        "commercialInvoiceGrossWeightUom": "KG",
+        "commercialInvoiceNetWeight": 1100.0,
+        "commercialInvoiceNetWeightUom": "KG",
+		    "commercialInvoiceLinePrice": 20000.0,
+        "unitPriceOfCommercialInvoiceLineItem": 200.0
+      }
+    ],
+	"additionalNotes": null
+  }
+}
