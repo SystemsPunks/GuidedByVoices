@@ -2,7 +2,7 @@
   "id": "??? ID gerado automático ???",
   "declaration": {
     "header": {
-	  "technicalId": "??? ID gerado automático ???",
+	   "technicalId": "??? ID gerado automático ???",
       "entryNumber": "Número da DI / DUIMP",
       "lrn": null,
       "ucr": null,
@@ -43,29 +43,29 @@
           "address": {
             "name1": "VALOR ESTÁTICO: Alameda Armenio Mendes, 66",
             "name2": null,
-            "name3": de,
+            "name3": null,
             "name4": null,
             "city": "VALOR ESTÁTICO: Santos",
             "postalCode": "VALOR ESTÁTICO: 11035260",
-            "state": "VALOR ESTÁTICO: São Paulo",
+            "state": "VALOR ESTÁTICO: SP",
             "country": "VALOR ESTÁTICO: BR"
           }
         },
         "ior": {
-          "vatGst": "DK12345678",
+          "vatGst": "??? Seria o CNPJ do Cliente ???",
           "registrationCode": "??? O que seria esse campo ???",
-          "name": "Importer DK ApS",
+          "name": "Nome do Cliente",
           "address": {
-            "name1": "Importer Road 10",
+            "name1": "CONCATENA: Endereço + Numero (Endereço) -> na tabela Cliente",
             "name2": null,
             "name3": null,
             "name4": null,
-            "city": "Copenhagen",
-            "state": "Hovedstaden",
-            "postalCode": "2300",
-            "country": "DK"
+            "city": "Cidade (Endereço) -> na tabela Cliente",
+            "state": "Estado -> na tabela Cliente",
+            "postalCode": "CEP -> na tabela Cliente",
+            "country": "VALOR ESTÁTICO: BR"
           },
-          "representativeStatus": "DIRECT"
+          "representativeStatus": "??? Acredito que seja um VALOR ESTÁTICO: DIRECT ???"
         },
         "eor": {
           "vatGst": "PL9876543210",
