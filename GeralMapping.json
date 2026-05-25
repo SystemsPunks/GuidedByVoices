@@ -248,20 +248,20 @@
       "incotermsCountry": "VALOR ESTÁTICO: BR",
       "holderOfAuthorization": [
         {
-          "type": "AUTH_TYPE_A",
-          "reference": "AUTH-REF-001"
+          "type": null,
+          "reference": null
         }
       ],
-      "fiscalReferenceId": "DK123456789",
-      "fiscalReferenceRole": "IMPORTER",
-      "defermentAccountTaxes": "1234567",
-      "defermentAccountDuties": "7654321",
-      "warehouseId": "R1234567DK",
-      "totalGrossWeight": 1200.5,
-      "totalGrossWeightUom": "KG",
-      "totalNetWeight": 1100.0,
-      "totalNetWeightUom": "KG",
-      "totalNumberOfPackages": 45,
+      "fiscalReferenceId": null,
+      "fiscalReferenceRole": null,
+      "defermentAccountTaxes": null,
+      "defermentAccountDuties": null,
+      "warehouseId": "Recinto Alfandegado (Despacho) -> na tabela Processo DI [Somente o código com 7 números no início]",
+      "totalGrossWeight": "Peso Bruto -> na tabela Processo DI",
+      "totalGrossWeightUom": "??? Qual o campo referente a unidade de medida do peso bruto ???",
+      "totalNetWeight": "Peso Líquido -> na tabela Processo DI",
+      "totalNetWeightUom": "??? Qual o campo referente a unidade de medida do peso líquido ???",
+      "totalNumberOfPackages": "??? Qual o campo referente a quantidade de Embalagens ???",
       "containers": [
         {
           "containerNumber": "ABCD1234567",
