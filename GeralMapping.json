@@ -112,22 +112,22 @@
           }
         },
         "representative": {
-          "registrationCode": "REPR-001",
-          "name": "Representative DK",
+          "registrationCode": "??? O que seria esse campo ???",
+          "name": "VALOR ESTÁTICO: DSV Air & Sea Brasil",
           "address": {
-            "name1": "Representative Lane 9",
+            "name1": "VALOR ESTÁTICO: Alameda Armenio Mendes, 66",
             "name2": null,
             "name3": null,
             "name4": null,
-            "city": "Copenhagen",
-            "postalCode": "2400",
-            "state": "Hovedstaden",
-            "country": "DK"
+            "city": "VALOR ESTÁTICO: Santos",
+            "postalCode": "VALOR ESTÁTICO: 11035260",
+            "state": "VALOR ESTÁTICO: SP",
+            "country": "VALOR ESTÁTICO: BR"
           }
         },
         "buyer": {
-          "registrationCode": "BUYER-001",
-          "name": "Buyer DK",
+          "registrationCode": "??? O que seria esse campo ???",
+          "name": "Cliente -> na tabela Processo DI [só o nome, sem o CNPJ]",
           "address": {
             "name1": "Buyer Lane 9",
             "name2": null,
