@@ -129,7 +129,7 @@
           "registrationCode": "??? O que seria esse campo ???",
           "name": "Cliente -> na tabela Processo DI [só o nome, sem o CNPJ]",
           "address": {
-            "name1": "Buyer Lane 9",
+            "name1": "CONCATENA: Endereço + Numero (Endereço) -> na tabela Cliente",
             "name2": null,
             "name3": null,
             "name4": null,
