@@ -133,94 +133,94 @@
             "name2": null,
             "name3": null,
             "name4": null,
-            "city": "Copenhagen",
-            "postalCode": "2400",
-            "state": "Hovedstaden",
-            "country": "DK"
+            "city": "Cidade (Endereço) -> na tabela Cliente",
+            "postalCode": "CEP -> na tabela Cliente",
+            "state": "Estado -> na tabela Cliente",
+            "country": "VALOR ESTÁTICO: BR"
           }
         },
         "seller": {
-          "registrationCode": "SELLER-001",
-          "name": "Seller DK",
+          "registrationCode": "??? O que seria esse campo ???",
+          "name": "Exportador -> na tabela Processo DI",
           "address": {
-            "name1": "Seller Lane 9",
+            "name1": "Logradouro do Exportador -> na tabela Processo DI",
             "name2": null,
             "name3": null,
             "name4": null,
-            "city": "Copenhagen",
-            "postalCode": "2400",
-            "state": "Hovedstaden",
-            "country": "DK"
+            "city": "Cidade do Exportador -> na tabela Processo DI",
+            "postalCode": "CEP do Exportador -> na tabela Processo DI  [TÁ TUDO EM BRANCO]",
+            "state": null,
+            "country": "DE PARA: Pais Exportador Sigla -> countryConversionTable.xlsx"
           }
         },
         "authorizedConsignee": {
-          "registrationCode": "AUTH-001",
-          "name": "Authorized Consignee DK",
+          "registrationCode": "??? Temos consignatário autorizado ou podemos anular ???",
+          "name": "??? Temos consignatário autorizado ou podemos anular ???",
           "address": {
-            "name1": "Authorized Lane 9",
+            "name1": "??? Temos consignatário autorizado ou podemos anular ???",
             "name2": null,
             "name3": null,
             "name4": null,
-            "city": "Copenhagen",
-            "postalCode": "2400",
-            "state": "Hovedstaden",
-            "country": "DK"
+            "city": "??? Temos consignatário autorizado ou podemos anular ???",
+            "postalCode": "??? Temos consignatário autorizado ou podemos anular ???",
+            "state": "??? Temos consignatário autorizado ou podemos anular ???",
+            "country": "??? Temos consignatário autorizado ou podemos anular ???"
           }
         },
         "forwarder": {
-          "registrationCode": "FORW-001",
-          "name": "Forwarder DK",
+          "registrationCode": null,
+          "name": "Agente -> na tabela Processo DI",
           "address": {
-            "name1": "Forwarder Lane 9",
+            "name1": null,
             "name2": null,
             "name3": null,
             "name4": null,
-            "city": "Copenhagen",
-            "postalCode": "2400",
-            "state": "Hovedstaden",
-            "country": "DK"
+            "city": null,
+            "postalCode": null,
+            "state": null,
+            "country": null
           }
         },
         "carrier": {
-          "registrationCode": "CARRIER-001",
-          "name": "Carrier DK",
+          "registrationCode": null,
+          "name": "Transportadora -> na tabela Processo DI",
           "address": {
-            "name1": "Carrier Lane 9",
+            "name1": null,
             "name2": null,
             "name3": null,
             "name4": null,
-            "city": "Copenhagen",
-            "postalCode": "2400",
-            "state": "Hovedstaden",
-            "country": "DK"
+            "city": null,
+            "postalCode": null,
+            "state": null,
+            "country": null
           }
         },
         "shipper": {
-          "registrationCode": "SHIPPER-001",
-          "name": "Shipper DK",
+          "registrationCode": "??? O que seria esse campo ???",
+          "name": "Exportador -> na tabela Processo DI",
           "address": {
-            "name1": "Shipper Lane 9",
+            "name1": "Logradouro do Exportador -> na tabela Processo DI",
             "name2": null,
             "name3": null,
             "name4": null,
-            "city": "Copenhagen",
-            "postalCode": "2400",
-            "state": "Hovedstaden",
-            "country": "DK"
+            "city": "Cidade do Exportador -> na tabela Processo DI",
+            "postalCode": "CEP do Exportador -> na tabela Processo DI  [TÁ TUDO EM BRANCO]",
+            "state": null,
+            "country": "DE PARA: Pais Exportador Sigla -> countryConversionTable.xlsx"
           }
         },
         "delivery": {
-          "registrationCode": "DELIVERY-001",
-          "name": "Delivery DK",
+          "registrationCode": null,
+          "name": "Transportadora -> na tabela Processo DI",
           "address": {
-            "name1": "Delivery Lane 9",
+            "name1": null,
             "name2": null,
             "name3": null,
             "name4": null,
-            "city": "Copenhagen",
-            "postalCode": "2400",
-            "state": "Hovedstaden",
-            "country": "DK"
+            "city": null,
+            "postalCode": null,
+            "state": null,
+            "country": null
           }
 		},
 		"intermediateConsignee": {
