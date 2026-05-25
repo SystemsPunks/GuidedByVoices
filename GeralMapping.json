@@ -154,17 +154,17 @@
           }
         },
         "authorizedConsignee": {
-          "registrationCode": "??? Temos consignatário autorizado ou podemos anular ???",
-          "name": "??? Temos consignatário autorizado ou podemos anular ???",
+          "registrationCode": null,
+          "name": null,
           "address": {
-            "name1": "??? Temos consignatário autorizado ou podemos anular ???",
+            "name1": null,
             "name2": null,
             "name3": null,
             "name4": null,
-            "city": "??? Temos consignatário autorizado ou podemos anular ???",
-            "postalCode": "??? Temos consignatário autorizado ou podemos anular ???",
-            "state": "??? Temos consignatário autorizado ou podemos anular ???",
-            "country": "??? Temos consignatário autorizado ou podemos anular ???"
+            "city": null,
+            "postalCode": null,
+            "state": null,
+            "country": null
           }
         },
         "forwarder": {
@@ -222,19 +222,19 @@
             "state": null,
             "country": null
           }
-		},
-		"intermediateConsignee": {
-          "registrationCode": "INTERCONS-001",
-          "name": "INTERCONS DK",
+		    },
+		    "intermediateConsignee": {
+          "registrationCode": null,
+          "name": null,
           "address": {
-            "name1": "INTERCONS Lane 9",
+            "name1": null,
             "name2": null,
             "name3": null,
             "name4": null,
-            "city": "Copenhagen",
-            "postalCode": "2400",
-            "state": "Hovedstaden",
-            "country": "DK"
+            "city": null,
+            "postalCode": null,
+            "state": null,
+            "country": null
           }
         }
       },
