@@ -367,30 +367,30 @@
       "remarks": "??? É necessário o preenchimento desse campo? E com qual dado ???",
       "totalGuarantee": [
         {
-          "value": "??? Temos alguma informação acerca de Garantias ???",
-          "currency": "??? Temos alguma informação acerca de Garantias ???",
-          "type": "??? Temos alguma informação acerca de Garantias ???",
-          "number": "??? Temos alguma informação acerca de Garantias ???"
+          "value": null,
+          "currency": null,
+          "type": null,
+          "number": null
         }
       ],
-      "customsAuthorizationNumber": "DK/04/000123",
-      "loadingLocation": "GDN-YD-02",
-      "expirationDate": "2026-02-22",
-      "dischargeDate": "2026-01-22",
-      "goodsLocation": "GDLCS",
-      "exitCustomsOfficeCode": "DK001",
-      "exitCustomsOfficeName": "Copenhagen Exit Office",
-      "exportCustomsOfficeCode": "PL009",
-      "exportCustomsOfficeName": "Gdansk Export Office",
-      "importCustomsOfficeCode": "DK003",
-      "importCustomsOfficeName": "Copenhagen Import Office",
-      "declarationStatus": "CLEARED",
-      "stateOfData": "APPROVED",
-      "stateOfShipment": "ARRIVED",
-	    "supervisingOfficeCode": "DKCPH001",
-      "supervisingOfficeName": "Copenhagen Supervising Office",
-      "borderTransportIdType": "11",
-      "inlandTransportIdType": "11"
+      "customsAuthorizationNumber": null,
+      "loadingLocation": "Porto de Origem [para Marítimos] / Origem Siscomex (Locode) [para Aéreos] -> na tabela Processo DI [considerando sempre as primeiras 5 letras antes do '-' se houver !!!]",
+      "expirationDate": null,
+      "dischargeDate": null,
+      "goodsLocation": "DE PARA: URF Despacho -> portsConversionTable.xlsx",
+      "exitCustomsOfficeCode": "Porto de Origem [para Marítimos] / Origem Siscomex (Locode) [para Aéreos] -> na tabela Processo DI [considerando sempre as primeiras 5 letras antes do '-' se houver !!!]",
+      "exitCustomsOfficeName": "Porto de Origem [para Marítimos] / Origem Siscomex (Locode) [para Aéreos] -> na tabela Processo DI [o nome após '-', se houver !!!]",
+      "exportCustomsOfficeCode": "Porto de Origem [para Marítimos] / Origem Siscomex (Locode) [para Aéreos] -> na tabela Processo DI [considerando sempre as primeiras 5 letras antes do '-' se houver !!!]",
+      "exportCustomsOfficeName": "Porto de Origem [para Marítimos] / Origem Siscomex (Locode) [para Aéreos] -> na tabela Processo DI [o nome após '-', se houver !!!]",
+      "importCustomsOfficeCode": "DE PARA: URF Despacho -> portsConversionTable.xlsx",
+      "importCustomsOfficeName": "URF Despacho -> na tabela Processo DI [ o nome após o código da URF e do '-']",
+      "declarationStatus": "VALOR ESTÁTICO: CLEARED",
+      "stateOfData": "??? sempre APPROVED ???",
+      "stateOfShipment": "??? sempre ARRIVED ???",
+	    "supervisingOfficeCode": "DE PARA: URF Despacho -> portsConversionTable.xlsx",
+      "supervisingOfficeName": "URF Despacho -> na tabela Processo DI [ o nome após o código da URF e do '-']",
+      "borderTransportIdType": "??? Quais seriam os ID's desses transportes ???",
+      "inlandTransportIdType": "??? Quais seriam os ID's desses transportes ???"
     },
     "lines": [
       {
@@ -524,10 +524,10 @@
     ],
     "commercialInvoice": [
       {
-        "invoiceNumber": "INV-2026-01",
-        "invoiceDate": "2026-01-20",
-        "invoiceValue": 20000.0,
-        "invoiceCurrency": "EUR"
+        "invoiceNumber": "Fatura -> na tabela Fatura",
+        "invoiceDate": "Fatura (Data) -> na tabela Fatura",
+        "invoiceValue": "Valor Total Fatura (Módulo Fatura) -> na tabela Fatura",
+        "invoiceCurrency": "??? Seria sempre BRL ???"
       }
     ],
     "commercialInvoiceLine": [
