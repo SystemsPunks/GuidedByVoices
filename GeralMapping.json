@@ -264,81 +264,113 @@
       "totalNumberOfPackages": "??? Qual o campo referente a quantidade de Embalagens ???",
       "containers": [
         {
-          "containerNumber": "ABCD1234567",
-          "sealNumber": "SEAL001"
+          "containerNumber": "Container (Módulo Container) -> na tabela Processo DI [para cada container separado por ',' quebramos uma linha]",
+          "sealNumber": null
         }
       ],
-      "totalValueDeclared": 25000.0,
-      "customsDeclarationCurrency": "EUR",
+      "totalValueDeclared": "Valor CIF -> na tabela Processo DI",
+      "customsDeclarationCurrency": "??? Qual o campo referente a moeda da DI ???",
       "taxes": [
         {
-          "type": "VAT",
-          "base": 25000.0,
-          "rate": 0.25,
-          "payableAmount": 6250.0,
-          "total": 6250.0,
-          "paymentMethod": "E"
+          "type": "VALOR ESTÁTICO: PIS",
+          "base": null,
+          "rate": null,
+          "payableAmount": "Valor PIS a Recolher -> na tabela Processo DI",
+          "total": "Valor PIS a Recolher -> na tabela Processo DI",
+          "paymentMethod": "??? O que devemos inserir de dado nesse campo ???"
+        },
+        {
+          "type": "VALOR ESTÁTICO: COFINS",
+          "base": null,
+          "rate": null,
+          "payableAmount": "Valor Cofins a Recolher -> na tabela Processo DI",
+          "total": "Valor Cofins a Recolher -> na tabela Processo DI",
+          "paymentMethod": "??? O que devemos inserir de dado nesse campo ???"
+        },
+        {
+          "type": "VALOR ESTÁTICO: II",
+          "base": null,
+          "rate": null,
+          "payableAmount": "Valor II a Recolher -> na tabela Processo DI",
+          "total": "Valor II a Recolher -> na tabela Processo DI",
+          "paymentMethod": "??? O que devemos inserir de dado nesse campo ???"
+        },
+        {
+          "type": "VALOR ESTÁTICO: IPI",
+          "base": null,
+          "rate": null,
+          "payableAmount": "Valor IPI a Recolher -> na tabela Processo DI",
+          "total": "Valor IPI a Recolher -> na tabela Processo DI",
+          "paymentMethod": "??? O que devemos inserir de dado nesse campo ???"
+        },
+        {
+          "type": "VALOR ESTÁTICO: TAXA SISCOMEX",
+          "base": null,
+          "rate": null,
+          "payableAmount": "Valor Taxa SISCOMEX -> na tabela Processo DI",
+          "total": "Valor Taxa SISCOMEX -> na tabela Processo DI",
+          "paymentMethod": "??? O que devemos inserir de dado nesse campo ???"
         }
       ],
       "totalAdditionsAndDeductions": [
         {
-          "code": "AK",
-          "value": 500.0,
-          "currency": "EUR",
-          "exchangeRate": 1.0,
-          "convertedValue": 500.0
+          "code": null,
+          "value": null,
+          "currency": null,
+          "exchangeRate": null,
+          "convertedValue": null
         }
       ],
-      "totalValueFreightCharges": 500.0,
-      "totalFreightChargesCurrency": "EUR",
-      "totalFreightExchangeRate": 1.0,
-      "totalConvertedValueFreightCharges": 500.0,
-      "totalValueInsuranceCharges": 100.0,
-      "totalInsuranceChargesCurrency": "EUR",
-      "totalInsuranceExchangeRate": 1.0,
-      "totalConvertedValueInsuranceCharges": 100.0,
-      "transmittedDate": "2026-01-22",
-      "transmittedTime": "19:10:00",
-      "acceptanceDate": "2026-01-22",
-      "acceptanceTime": "19:11:00",
-      "customsReleaseDate": "2026-01-22",
-      "customsReleaseTime": "19:12:00",
-      "taxesDutiesPaidDate": "2026-01-22",
-      "taxesDutiesPaidTime": "19:12:30",
-      "relationshipStatus": true,
-      "buyerRestrictions": false,
-      "conditionsOnSaleOrPrice": false,
-      "proceedsOfSaleOrUse": false,
-      "transactionNature": "11",
+      "totalValueFreightCharges": "Valor do Frete na Moeda -> na tabela Processo DI",
+      "totalFreightChargesCurrency": "Moeda Frete -> na tabela Processo DI",
+      "totalFreightExchangeRate": null,
+      "totalConvertedValueFreightCharges": "Valor Frete Internacional (Total) R$ -> na tabela Processo DI",
+      "totalValueInsuranceCharges": "Valor do Seguro na Moeda -> na tabela Processo DI",
+      "totalInsuranceChargesCurrency": "Moeda Seguro -> na tabela Processo DI",
+      "totalInsuranceExchangeRate": null,
+      "totalConvertedValueInsuranceCharges": "Valor do Seguro Internacional -> na tabela Processo DI",
+      "transmittedDate": "Registro DI/Duimp (Data) -> na tabela Processo DI",
+      "transmittedTime": "Registro DI/Duimp (Hora) -> na tabela Processo DI",
+      "acceptanceDate": "Registro DI/Duimp (Data) -> na tabela Processo DI",
+      "acceptanceTime": "Registro DI/Duimp (Hora) -> na tabela Processo DI",
+      "customsReleaseDate": "Registro DI/Duimp (Data) -> na tabela Processo DI",
+      "customsReleaseTime": "Registro DI/Duimp (Hora) -> na tabela Processo DI",
+      "taxesDutiesPaidDate": "Registro DI/Duimp (Data) -> na tabela Processo DI",
+      "taxesDutiesPaidTime": "Registro DI/Duimp (Hora) -> na tabela Processo DI",
+      "relationshipStatus": "??? A que se refere esse campo booleano ???",
+      "buyerRestrictions": "??? A que se refere esse campo booleano ???",
+      "conditionsOnSaleOrPrice": "??? A que se refere esse campo booleano ???",
+      "proceedsOfSaleOrUse": "??? A que se refere esse campo booleano ???",
+      "transactionNature": "??? Precisamos dos valores de Transaction Nature e entender como será o DE PARA ???",
       "previousDocuments": [
         {
-          "category": "Z",
-          "type": "ZZZ",
-          "reference": "1234567"
+          "category": null,
+          "type": null,
+          "reference": null
         }
       ],
       "additionalInformation": [
         {
-          "type": "00100",
-          "reference": "123456"
+          "type": null,
+          "reference": null
         }
       ],
       "additionalDocuments": [
         {
-          "type": "N380",
-          "reference": "inv123456",
+          "type": null,
+          "reference": null,
           "amount": null,
-          "issueDate": "2026-01-01",
+          "issueDate": null,
           "validityDate": null
         }
       ],
-      "remarks": "Header remarks",
+      "remarks": "??? É necessário o preenchimento desse campo? E com qual dado ???",
       "totalGuarantee": [
         {
-          "value": 10.1,
-          "currency": "EUR",
-          "type": "1",
-          "number": "25DK000000K000000"
+          "value": "??? Temos alguma informação acerca de Garantias ???",
+          "currency": "??? Temos alguma informação acerca de Garantias ???",
+          "type": "??? Temos alguma informação acerca de Garantias ???",
+          "number": "??? Temos alguma informação acerca de Garantias ???"
         }
       ],
       "customsAuthorizationNumber": "DK/04/000123",
