@@ -16,7 +16,7 @@
       "declarationCountry": "VALOR ESTÁTICO: BR",
       "declarationDivision": "??? Será que é um DE PARA SEA, AIR ou ROAD ???",
       "portOfEntry": "DE PARA: URF Despacho -> portsConversionTable.xlsx",
-      "cityOfEntry": "??? Existe algum campo referente à cidade da URF ???",
+      "cityOfEntry": null,
       "countryOfImport": "VALOR ESTÁTICO: BR",
       "countryOfExport": "DE PARA: Pais Exportador Sigla -> countryConversionTable.xlsx",
       "portOfLoading": "Porto de Origem [para Marítimos] / Origem Siscomex (Locode) [para Aéreos] -> na tabela Processo DI [considerando sempre as primeiras 5 letras antes do '-' se houver !!!]",
@@ -24,7 +24,7 @@
       "borderTransportId": "Navio -> na tabela Processo DI",
       "inlandTransportId": null,
       "borderModeOfTransport": "??? Qual o DE PARA (dos números) para os tipos de transporte ???",
-      "inlandModeOfTransport": "??? Qual o DE PARA (dos números) para os tipos de transporte ???",
+      "inlandModeOfTransport": null,
       "borderModeOfTransportDescription": "!!! Acredito que será sempre 'Sea', 'Road' ou 'Air transport' !!!",
       "inlandModeOfTransportDescription": "!!! Acredito que será sempre 'Sea', 'Road' ou 'Air transport' !!!",
       "borderTransportNationality": null,
@@ -394,21 +394,21 @@
     },
     "lines": [
       {
-        "lineNumber": 1,
-        "commercialInvoiceNumber": "INV-2026-01",
-        "htsCode": "870899",
-        "htsDescription": "Vehicle parts",
+        "lineNumber": "!!! NÚMERO INTEIRO QUE SERÁ INCREMENTADO !!!",
+        "commercialInvoiceNumber": null,
+        "htsCode": "NCM -> na tabela Item",
+        "htsDescription": "!!! Fazer um DE-PARA: com base no código da NCM com o XML contendo as descrições !!!",
         "additionalCodes": [
           {
-            "code": "1234"
+            "code": null
           }
         ],
-        "htsQuantity": 100,
-        "countryOfOrigin": "PL",
-        "grossWeight": 1200.5,
-        "grossWeightUom": "KG",
-        "netWeight": 1100.0,
-        "netWeightUom": "KG",
+        "htsQuantity": "Quantidade -> na tabela Item",
+        "countryOfOrigin": null,
+        "grossWeight": null,
+        "grossWeightUom": null,
+        "netWeight": "Peso líquido total -> na tabela Item",
+        "netWeightUom": null,
         "htsLineValue": 20000.0,
         "htsLineCurrency": "EUR",
         "packageType": "BX",
@@ -427,8 +427,8 @@
         ],
         "additionalInformation": [
           {
-            "code": "BR123",
-            "information": "Line-level info"
+            "code": "Código do Produto -> na tabela Item",
+            "information": "Descrição -> na tabela Item"
           }
         ],
         "quota": "090000",
