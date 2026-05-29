@@ -1,20 +1,20 @@
 {
-  "id": "??? ID gerado automático ???",
+  "id": "!!! ID gerado automaticamente do nosso lado !!!",
   "declaration": {
     "header": {
-	   "technicalId": "??? ID gerado automático ???",
+	   "technicalId": null,
       "entryNumber": "Número da DI / DUIMP",
       "lrn": null,
       "ucr": null,
-      "jobDate": "Data de Registro",
-      "jobTime": "Hora do Registro",
+      "jobDate": "Registro DI/DUIMP (Data) -> na tabela Processo DI",
+      "jobTime": "Registro DI/DUIMP (Hora) -> na tabela Processo DI",
       "jobType": "VALOR ESTÁTICO: STANDARD IMPORT",
       "jobTypeDescription": "VALOR ESTÁTICO: Standard import declaration",
       "shipmentType": "VALOR ESTÁTICO: IMPORT",
       "declarationType": "VALOR ESTÁTICO: IMD",
-      "declarationCategory": "??? Será que é um valor estático ???",
-      "declarationCountry": "VALOR ESTÁTICO: BR",
-      "declarationDivision": "??? Será que é um DE PARA SEA, AIR ou ROAD ???",
+      "declarationCategory": "Tipo de Despacho -> na tabela Processo DI",
+      "declarationCountry": "VALOR ESTÁTICO: BR",    
+      "declarationDivision": "DE PARA: Via de Transporte -> na tabela Processo DI [SEA caso 'MARITIMA' | AIR caso 'AEREA' | ROAD caso 'RODOVIARIO']",
       "portOfEntry": "DE PARA: URF Despacho -> portsConversionTable.xlsx",
       "cityOfEntry": null,
       "countryOfImport": "VALOR ESTÁTICO: BR",
@@ -23,10 +23,10 @@
       "portOfDischarge": "DE PARA: URF Despacho -> portsConversionTable.xlsx",
       "borderTransportId": "Navio -> na tabela Processo DI",
       "inlandTransportId": null,
-      "borderModeOfTransport": "??? Qual o DE PARA (dos números) para os tipos de transporte ???",
+      "borderModeOfTransport": "DE PARA: Via de Transporte -> na tabela Processo DI [1 caso 'MARITIMA' | 3 caso 'RODOVIARIA' | 4 caso 'AEREA'",
       "inlandModeOfTransport": null,
-      "borderModeOfTransportDescription": "!!! Acredito que será sempre 'Sea', 'Road' ou 'Air transport' !!!",
-      "inlandModeOfTransportDescription": "!!! Acredito que será sempre 'Sea', 'Road' ou 'Air transport' !!!",
+      "borderModeOfTransportDescription": "DE PARA: Via de Transporte -> na tabela Processo DI [Sea transport caso 'MARITIMA' | Road transport caso 'RODOVIARIA' | Air transport caso 'AEREA'",
+      "inlandModeOfTransportDescription": null,
       "borderTransportNationality": null,
       "inlandTransportNationality": null,
       "importDate": "Chegada (Data) -> na tabela Processo DI",
@@ -38,7 +38,7 @@
       "shipmentId": "Registro -> na tabela Processo DI",
       "parties": {
         "broker": {
-          "registrationCode": "??? O que seria esse campo ???",
+          "registrationCode": "!!! 64 da DSV !!!",
           "name": "VALOR ESTÁTICO: DSV Air & Sea Brasil",
           "address": {
             "name1": "VALOR ESTÁTICO: Alameda Armenio Mendes, 66",
@@ -52,8 +52,8 @@
           }
         },
         "ior": {
-          "vatGst": "??? Seria o CNPJ do Cliente ???",
-          "registrationCode": "??? O que seria esse campo ???",
+          "vatGst": "Cliente - CNPJ -> na tabela Processo DI",
+          "registrationCode": "Cliente - Código do cliente -> na tabela Processo DI",
           "name": "Cliente -> na tabela Processo DI [só o nome, sem o CNPJ]",
           "address": {
             "name1": "CONCATENA: Endereço + Numero (Endereço) -> na tabela Cliente",
@@ -65,11 +65,11 @@
             "postalCode": "CEP -> na tabela Cliente",
             "country": "VALOR ESTÁTICO: BR"
           },
-          "representativeStatus": "??? Acredito que seja um VALOR ESTÁTICO: DIRECT ???"
+          "representativeStatus": "VALOR ESTÁTICO: DIRECT"
         },
         "eor": {
-          "vatGst": "??? Seria o Código Externo do Exportador/CNPJ do Cliente ???",
-          "registrationCode": "??? O que seria esse campo ???",
+          "vatGst": null,
+          "registrationCode": null,
           "name": "Exportador -> na tabela Processo DI",
           "address": {
             "name1": "Logradouro do Exportador -> na tabela Processo DI",
@@ -81,10 +81,10 @@
             "postalCode": "CEP do Exportador -> na tabela Processo DI  [TÁ TUDO EM BRANCO]",
             "country": "DE PARA: Pais Exportador Sigla -> countryConversionTable.xlsx"
           },
-          "representativeStatus": null
+          "representativeStatus": "VALOR ESTÁTICO: DIRECT"
         },
         "consignee": {
-          "registrationCode": "??? O que seria esse campo ???",
+          "registrationCode": "Cliente - Código do cliente -> na tabela Processo DI",
           "name": "Cliente -> na tabela Processo DI [só o nome, sem o CNPJ]",
           "address": {
             "name1": "CONCATENA: Endereço + Numero (Endereço) -> na tabela Cliente",
@@ -98,7 +98,7 @@
           }
         },
         "declarant": {
-          "registrationCode": "??? O que seria esse campo ???",
+          "registrationCode": "Cliente - Código do cliente -> na tabela Processo DI",
           "name": "Cliente -> na tabela Processo DI [só o nome, sem o CNPJ]",
           "address": {
             "name1": "CONCATENA: Endereço + Numero (Endereço) -> na tabela Cliente",
@@ -112,7 +112,7 @@
           }
         },
         "representative": {
-          "registrationCode": "??? O que seria esse campo ???",
+          "registrationCode": "!!! 64 da DSV !!!",
           "name": "VALOR ESTÁTICO: DSV Air & Sea Brasil",
           "address": {
             "name1": "VALOR ESTÁTICO: Alameda Armenio Mendes, 66",
@@ -126,7 +126,7 @@
           }
         },
         "buyer": {
-          "registrationCode": "??? O que seria esse campo ???",
+          "registrationCode": "Cliente - Código do cliente -> na tabela Processo DI",
           "name": "Cliente -> na tabela Processo DI [só o nome, sem o CNPJ]",
           "address": {
             "name1": "CONCATENA: Endereço + Numero (Endereço) -> na tabela Cliente",
@@ -140,7 +140,7 @@
           }
         },
         "seller": {
-          "registrationCode": "??? O que seria esse campo ???",
+          "registrationCode": null,
           "name": "Exportador -> na tabela Processo DI",
           "address": {
             "name1": "Logradouro do Exportador -> na tabela Processo DI",
@@ -196,7 +196,7 @@
           }
         },
         "shipper": {
-          "registrationCode": "??? O que seria esse campo ???",
+          "registrationCode": null,
           "name": "Exportador -> na tabela Processo DI",
           "address": {
             "name1": "Logradouro do Exportador -> na tabela Processo DI",
@@ -238,10 +238,10 @@
           }
         }
       },
-      "brokerReferenceNumber": "!!! Entendo que aqui seria a nossa Ref. DSV do processo !!!",
-      "brokerOfficeNumber": "??? O que seria esse campo ???",
-      "brokerLicense": "??? O que seria esse campo ???",
-      "customerId": "!!! Entendo que aqui seria Ref. Cliente do processo !!!",
+      "brokerReferenceNumber": "Registro -> na tabela Processo DI",
+      "brokerOfficeNumber": null,
+      "brokerLicense": null,
+      "customerId": "Ref. Cliente -> na tabela Processo DI",
       "incotermsCode": "Incoterm -> na tabela Processo DI [Só os 3 primeiros caracteres]",
       "incotermsLocation": null,
       "incotermsUnlocode": null,
@@ -258,10 +258,10 @@
       "defermentAccountDuties": null,
       "warehouseId": "Recinto Alfandegado (Despacho) -> na tabela Processo DI [Somente o código com 7 números no início]",
       "totalGrossWeight": "Peso Bruto -> na tabela Processo DI",
-      "totalGrossWeightUom": "??? Qual o campo referente a unidade de medida do peso bruto ???",
+      "totalGrossWeightUom": "VALOR ESTÁTICO: KG",
       "totalNetWeight": "Peso Líquido -> na tabela Processo DI",
-      "totalNetWeightUom": "??? Qual o campo referente a unidade de medida do peso líquido ???",
-      "totalNumberOfPackages": "??? Qual o campo referente a quantidade de Embalagens ???",
+      "totalNetWeightUom": "VALOR ESTÁTICO: KG",
+      "totalNumberOfPackages": "Quantidade de Volumes -> na tabela Processo DI",
       "containers": [
         {
           "containerNumber": "Container (Módulo Container) -> na tabela Processo DI [para cada container separado por ',' quebramos uma linha]",
@@ -269,7 +269,7 @@
         }
       ],
       "totalValueDeclared": "Valor CIF -> na tabela Processo DI",
-      "customsDeclarationCurrency": "??? Qual o campo referente a moeda da DI ???",
+      "customsDeclarationCurrency": null,
       "taxes": [
         {
           "type": "VALOR ESTÁTICO: PIS",
@@ -277,7 +277,7 @@
           "rate": null,
           "payableAmount": "Valor PIS a Recolher -> na tabela Processo DI",
           "total": "Valor PIS a Recolher -> na tabela Processo DI",
-          "paymentMethod": "??? O que devemos inserir de dado nesse campo ???"
+          "paymentMethod": null
         },
         {
           "type": "VALOR ESTÁTICO: COFINS",
@@ -285,7 +285,7 @@
           "rate": null,
           "payableAmount": "Valor Cofins a Recolher -> na tabela Processo DI",
           "total": "Valor Cofins a Recolher -> na tabela Processo DI",
-          "paymentMethod": "??? O que devemos inserir de dado nesse campo ???"
+          "paymentMethod": null
         },
         {
           "type": "VALOR ESTÁTICO: II",
@@ -293,7 +293,7 @@
           "rate": null,
           "payableAmount": "Valor II a Recolher -> na tabela Processo DI",
           "total": "Valor II a Recolher -> na tabela Processo DI",
-          "paymentMethod": "??? O que devemos inserir de dado nesse campo ???"
+          "paymentMethod": null
         },
         {
           "type": "VALOR ESTÁTICO: IPI",
@@ -301,7 +301,7 @@
           "rate": null,
           "payableAmount": "Valor IPI a Recolher -> na tabela Processo DI",
           "total": "Valor IPI a Recolher -> na tabela Processo DI",
-          "paymentMethod": "??? O que devemos inserir de dado nesse campo ???"
+          "paymentMethod": null
         },
         {
           "type": "VALOR ESTÁTICO: TAXA SISCOMEX",
@@ -309,7 +309,7 @@
           "rate": null,
           "payableAmount": "Valor Taxa SISCOMEX -> na tabela Processo DI",
           "total": "Valor Taxa SISCOMEX -> na tabela Processo DI",
-          "paymentMethod": "??? O que devemos inserir de dado nesse campo ???"
+          "paymentMethod": null
         }
       ],
       "totalAdditionsAndDeductions": [
@@ -337,11 +337,11 @@
       "customsReleaseTime": "Registro DI/Duimp (Hora) -> na tabela Processo DI",
       "taxesDutiesPaidDate": "Registro DI/Duimp (Data) -> na tabela Processo DI",
       "taxesDutiesPaidTime": "Registro DI/Duimp (Hora) -> na tabela Processo DI",
-      "relationshipStatus": "??? A que se refere esse campo booleano ???",
-      "buyerRestrictions": "??? A que se refere esse campo booleano ???",
-      "conditionsOnSaleOrPrice": "??? A que se refere esse campo booleano ???",
-      "proceedsOfSaleOrUse": "??? A que se refere esse campo booleano ???",
-      "transactionNature": "??? Precisamos dos valores de Transaction Nature e entender como será o DE PARA ???",
+      "relationshipStatus": null,
+      "buyerRestrictions": null,
+      "conditionsOnSaleOrPrice": null,
+      "proceedsOfSaleOrUse": null,
+      "transactionNature": null,
       "previousDocuments": [
         {
           "category": null,
@@ -364,7 +364,7 @@
           "validityDate": null
         }
       ],
-      "remarks": "??? É necessário o preenchimento desse campo? E com qual dado ???",
+      "remarks": null,
       "totalGuarantee": [
         {
           "value": null,
