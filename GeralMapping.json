@@ -385,12 +385,12 @@
       "importCustomsOfficeCode": "DE PARA: URF Despacho -> portsConversionTable.xlsx",
       "importCustomsOfficeName": "URF Despacho -> na tabela Processo DI [ o nome após o código da URF e do '-']",
       "declarationStatus": "VALOR ESTÁTICO: CLEARED",
-      "stateOfData": "??? sempre APPROVED ???",
-      "stateOfShipment": "??? sempre ARRIVED ???",
+      "stateOfData": "VALOR ESTÁTICO: APPROVED",
+      "stateOfShipment": "VALOR ESTÁTICO: ARRIVED",
 	    "supervisingOfficeCode": "DE PARA: URF Despacho -> portsConversionTable.xlsx",
       "supervisingOfficeName": "URF Despacho -> na tabela Processo DI [ o nome após o código da URF e do '-']",
-      "borderTransportIdType": "??? Quais seriam os ID's desses transportes ???",
-      "inlandTransportIdType": "??? Quais seriam os ID's desses transportes ???"
+      "borderTransportIdType": null,
+      "inlandTransportIdType": null
     },
     "lines": [
       {
