@@ -501,9 +501,14 @@
         ],
         "previousDocuments": [
           {
-            "reference": "PREV-L-001",
-            "category": "Z",
-            "type": "N380"
+            "reference": "Nota Fiscal Mãe -> na tabela Item",
+            "category": "VALOR ESTÁTICO: Nota Fiscal Mãe [null caso o campo Nota Fiscal Mãe não venha preenchido]",
+            "type": null
+          },
+          {
+            "reference": "Nota Fiscal Filhote -> na tabela Item",
+            "category": "VALOR ESTÁTICO: Nota Fiscal Filhote [null caso o campo Nota Fiscal Filhote não venha preenchido]",
+            "type": null
           }
         ],
         "purchaseOrderNumber": null,
@@ -511,15 +516,15 @@
         "inspectionType": null,
         "transactionNature": null,
         "valuationMethod": null,
-        "incotermsLineCode": "DAP",
-        "incotermsLineLocation": "Copenhagen",
-        "incotermsLineUnlocode": "DKCPH",
-        "incotermsLineCountry": "DK",
-        "lineRemarks": "Line remarks",
-        "relationshipStatusLine": true,
-        "buyerRestrictionsLine": true,
-        "conditionsOnSaleOrPriceLine": true,
-        "proceedsOfSaleOrUseLine": true
+        "incotermsLineCode": "Incoterm -> na tabela Processo DI [Só os 3 primeiros caracteres]",
+        "incotermsLineLocation": null,
+        "incotermsLineUnlocode": null,
+        "incotermsLineCountry": "VALOR ESTÁTICO: BR",
+        "lineRemarks": null,
+        "relationshipStatusLine": null,
+        "buyerRestrictionsLine": null,
+        "conditionsOnSaleOrPriceLine": null,
+        "proceedsOfSaleOrUseLine": null
       }
     ],
     "commercialInvoice": [
