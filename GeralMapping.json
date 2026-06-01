@@ -506,11 +506,11 @@
             "type": "N380"
           }
         ],
-        "purchaseOrderNumber": "PO-001",
-        "inspectionFlag": "N",
+        "purchaseOrderNumber": null,
+        "inspectionFlag": null,
         "inspectionType": null,
-        "transactionNature": "11",
-        "valuationMethod": "1",
+        "transactionNature": null,
+        "valuationMethod": null,
         "incotermsLineCode": "DAP",
         "incotermsLineLocation": "Copenhagen",
         "incotermsLineUnlocode": "DKCPH",
@@ -532,8 +532,8 @@
     ],
     "commercialInvoiceLine": [
       {
-        "partNumber": "PN-123",
-        "partNumberDescription": "Brake pads",
+        "partNumber": "Código do Produto -> na tabela Item",
+        "partNumberDescription": "Descrição -> na tabela Item",
         "commercialInvoiceNumber": "INV-2026-01",
         "commercialInvoiceLineNumber": 1,
         "commercialInvoiceLineItemQuantity": 100,
