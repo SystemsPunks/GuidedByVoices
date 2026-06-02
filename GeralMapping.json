@@ -408,7 +408,7 @@
         "grossWeight": null,
         "grossWeightUom": null,
         "netWeight": "Peso líquido total -> na tabela Item",
-        "netWeightUom": "KG",
+        "netWeightUom": "VALOR ESTÁTICO: KG",
         "htsLineValue": "Valor unitário condição de venda -> na tabela Item",
         "htsLineCurrency": "Moeda FOB -> na tabela Processo DI",
         "packageType": "Embalagem -> na tabela Processo DI",
@@ -529,27 +529,27 @@
     ],
     "commercialInvoice": [
       {
-        "invoiceNumber": "Fatura -> na tabela Fatura",
-        "invoiceDate": "Fatura (Data) -> na tabela Fatura",
-        "invoiceValue": "Valor Total Fatura (Módulo Fatura) -> na tabela Fatura",
-        "invoiceCurrency": "??? Seria sempre BRL ???"
+        "invoiceNumber": "Numero Invoice -> na tabela Item [podem aparecer valores repetidos pelas linhas de um processo, porém consideramos os valores únicos para cada objeto commercialInvoice]",
+        "invoiceDate": null,
+        "invoiceValue": null,
+        "invoiceCurrency": null
       }
-    ],
+    ],,
     "commercialInvoiceLine": [
       {
-        "partNumber": "Código do Produto -> na tabela Item",
-        "partNumberDescription": "Descrição -> na tabela Item",
-        "commercialInvoiceNumber": "INV-2026-01",
-        "commercialInvoiceLineNumber": 1,
+        "partNumber": "Código do Produto -> na tabela Item [para cada linha do campo Numero Invoice -> na tabela Item]",
+        "partNumberDescription": "Descrição -> na tabela Item [para cada linha do campo Numero Invoice -> na tabela Item]",
+        "commercialInvoiceNumber": "Numero Invoice -> na tabela Item",
+        "commercialInvoiceLineNumber": "!!! NÚMERO, COMEÇANDO PELO 1, QUE SERÁ INCREMENTADO A CADA NOVA LINHA DO RELATÓRIO EM QUE O CAMPO Numero Invoice SE REPETE !!!",
         "commercialInvoiceLineItemQuantity": 100,
-        "commercialInvoiceNumberOfPackages": "Quantidade de Volumes -> na tabela Processo DI",
+        "commercialInvoiceNumberOfPackages": "Quantidade -> na tabela Item [para cada linha do campo Numero Invoice -> na tabela Item]",
         "commercialInvoicePackageType": "Embalagem -> na tabela Processo DI",
-        "commercialInvoiceGrossWeight": 1200.5,
-        "commercialInvoiceGrossWeightUom": "KG",
-        "commercialInvoiceNetWeight": 1100.0,
-        "commercialInvoiceNetWeightUom": "KG",
-		    "commercialInvoiceLinePrice": 20000.0,
-        "unitPriceOfCommercialInvoiceLineItem": 200.0
+        "commercialInvoiceGrossWeight": null,
+        "commercialInvoiceGrossWeightUom": null,
+        "commercialInvoiceNetWeight": "Peso líquido total -> na tabela Item [para cada linha do campo Numero Invoice -> na tabela Item]",
+        "commercialInvoiceNetWeightUom": "VALOR ESTÁTICO: KG",
+		    "commercialInvoiceLinePrice": "Valor mercadoria condição de venda -> na tabela Item [para cada linha do campo Numero Invoice -> na tabela Item]",
+        "unitPriceOfCommercialInvoiceLineItem": "Valor unitário condição de venda -> na tabela Item [para cada linha do campo Numero Invoice -> na tabela Item]"
       }
     ],
 	"additionalNotes": null
